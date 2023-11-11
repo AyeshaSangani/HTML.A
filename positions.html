@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+nav{
+    background-color: palegreen;
+            overflow: hidden;
+            font-size: medium;
+}
+ul {
+            margin: 0;
+            list-style-type: none;
+            float: right;
+            padding-right: 160px;
+
+        }
+
+        li {
+            float: left;
+        }
+
+        a {
+            display: block;
+            color:whitesmoke;
+            text-decoration: none;
+
+            padding: 16px 10px;
+        }
+
+        a:hover:not(.active) {
+
+            background-color:papayawhip;
+            color: black;
+           
+        }
+
+        .active {
+            background-color: papayawhip;
+            color: black;
+        }
+        .container{
+            width: 100px;
+            height: 100px;
+            background-color: #5baff3;
+            position: relative;
+            left: 15px;
+        }
+        .box{
+            width: 50px; 
+            height: 50px;
+            background-color: lavender;
+            position: absolute;
+            left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+           
+        </div>
+        <ul>
+            <li> <a href="" class="active"> Home </a></li>
+            <li> <a href=""> Services </a></li>
+            <li> <a href=""> Contact </a></li>
+            <li> <a href=""> About </a></li>
+            <li> <a href=""> portfolio</a></li>
+        </ul>
+    </nav>
+   <div class="container">
+    <div class="box">
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+
